@@ -5,7 +5,7 @@ module NoBrainer::Document::Callbacks
     if ActiveSupport::Callbacks.respond_to?(:halt_and_display_warning_on_return_false)
       ActiveSupport::Callbacks.halt_and_display_warning_on_return_false = false
     end
-    NoBrainer.rails5? ? options : options.merge(:terminator => proc { false })
+    NoBrainer.rails5? ? options : options.merge(:terminator => 'false')
   end
 
   included do
