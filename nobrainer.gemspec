@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   s.license     = "LGPLv3"
 
   s.add_dependency "rethinkdb",         ">= 2.3.0"
-  s.add_dependency "activesupport",     ">= 4.1.0"
-  s.add_dependency "activemodel",       ">= 4.1.0"
+  s.add_dependency "activesupport",     ">= 4.0.0"
+  s.add_dependency "activemodel",       ">= 4.0.0"
   s.add_dependency "middleware",        "~> 0.1.0"
   s.add_dependency "symbol_decoration", "~> 1.1"
 
